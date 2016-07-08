@@ -7,6 +7,11 @@ import com.mashape.unirest.http.JsonNode;
 import com.mashape.unirest.http.Unirest;
 import com.mashape.unirest.http.exceptions.UnirestException;
 
+/**
+ * 
+ * @author PARAS<parasp443@gmail.com>
+ *
+ */
 public class MyDriver implements MyWebDriverImpl {
 
 	String sessionID;
@@ -38,7 +43,7 @@ public class MyDriver implements MyWebDriverImpl {
 	}
 
 	@Override
-	public void fullSize() throws Exception {
+	public void maximizeBrowserWindow() throws Exception {
 
 	}
 
