@@ -1,4 +1,4 @@
-# CustomSeleniumChromeBindings
+# Custom Selenium Chrome Bindings
 <br/>
 This is demo how to write your own selenium bindings, or how it created by selenium contributors. 
 
