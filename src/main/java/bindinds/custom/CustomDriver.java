@@ -24,7 +24,7 @@ public class CustomDriver implements WebDriver {
 	}
 
 	@Override
-	public void get(String url) throws UnirestException {
+	public void get(String url) throws Exception {
 		CommandExecutor.executeCommand("post", Command.OPEN_URL, "url", url);
 	}
 
